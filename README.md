@@ -15,4 +15,4 @@ Made with :heart: by Mark Elliott
 
 ### ©️2019 Run Buddy, Inc
 
-A small local change.
+A small remote change.
