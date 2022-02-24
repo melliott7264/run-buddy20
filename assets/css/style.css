@@ -217,17 +217,22 @@ section {
 .contact div {
     display: inline-block;
 }
+.contact-form, .contact-info {
+    vertical-align: top;
+    margin: 30px 0 0 60px;
+    color: white;
+}
 .contact iframe {
     width: 400px;
     height: 400px;
  }
 .contact-info {
     width: 410px;
-    vertical-align: top;
-    margin: 30px 0 0 60px;
-    color: white;
 }
-.contact-info h3 {
+.contact-form {
+    width: 400px;
+}
+.contact h3 {
     color: #fce138;
     font-size: 32px;
 }
