@@ -59,6 +59,14 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Add hover feature to Nav links */
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
 /* HEADER / NAVBAR STYLES END */
 
 
@@ -141,6 +149,7 @@ section {
 }
 
 .form-input {
+  background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid #024e76;
   border-radius: 15px;
   display: block;
@@ -149,6 +158,12 @@ section {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px; 
+}
+
+/* Added rule for focus state on form input fields */
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 .hero-form label {
@@ -163,6 +178,12 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 } 
+
+/* Add hover feature to Hero form button */
+.hero-form button {
+  background-color: #39a6b2;
+}
+
 /* HERO STYLES END */
 
 
@@ -207,11 +228,15 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #39a6b2;
+}
+
+.step:last-child {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -337,6 +362,7 @@ section {
 }
 
 .contact-form input, .contact-form textarea {
+  background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid #024e76;
   border-radius: 15px;
   display: block;
@@ -348,6 +374,12 @@ section {
   margin-top: 5px;
 }
 
+/* Add solid background to input fields on focus */
+.contact-form input:focus, .contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
 .contact-form button {
   width: 100%;
   border: none;
@@ -357,6 +389,12 @@ section {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+}
+
+/* Add hover styling to contact form button */
+.contact-form button {
+  color: #fce138;
+  background: #39a6b2;
 }
 
 /* REACH OUT STYLES END */
