@@ -20,9 +20,9 @@ body {
 
 header {
   background-image: url('../images/hero-bg.jpg');
-  background-size: cover;
+  background-size: 112%;
   background-attachment: fixed;
-  background-position: 80%;
+  background-position: top;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
