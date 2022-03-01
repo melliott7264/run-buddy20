@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
@@ -17,6 +21,10 @@ body {
 
 
 /* HEADER / NAV BAR STYLES START */
+
+#what-we-do, #what-you-do, #your-trainers, #reach-out {
+  scroll-margin-top: 75px;
+}
 
 header {
   background-image: url('../images/hero-bg.jpg');
